@@ -16,10 +16,8 @@ class Unicorn {
         this.age = age;
         this.colour = colour;
     }
-
 }
 class UnicornService {
-
     // by the time this is graded, this api will have expired. this is what happens when you dont provide adequate 
     // resources for students.
     static url='https://crudcrud.com/api/411fa8b79bb344208eb334f2eab53042/unicorns';
@@ -35,7 +33,6 @@ class UnicornService {
 //   static createUnicorn(unicorn) {
 //        return $.post(this.url, unicorn);
 //   }
-
    static createUnicorn(unicorn) {
     return $.ajax({
         url: this.url,
