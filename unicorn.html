@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unicorns</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+   
+   <style>
+    #grad1 {
+      
+        background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+      }
+      </style>
+</head>
+<body class="container">
+   
+    <div id="grad1" class="jumbotron" >
+        <h2><b>Unicorns!</b></h2><br>
+
+       
+        
+     </div>   
+    
+    <div class="card-body">
+        <div class="card">
+            <div class="row">
+                <div class="col-sm">
+                UNICORN NAME
+                </div>
+                <div class="col-sm">
+                UNICORN AGE
+                </div>
+                <div class="col-sm">
+                UNICORN COLOR
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                <input type="text" id="new-unicorn-name" class="form-control" placeholder="Unicorn Name">
+                </div>
+                <div class="col-sm">
+                <input type="text" id="new-unicorn-age" class="form-control" placeholder="Unicorn Age">
+                </div>
+                <div class="col-sm">
+                <input type="text" id="new-unicorn-colour" class="form-control" placeholder="Unicorn Color">
+                </div>
+            </div>
+            <button id="create-new-unicorn" class="btn btn-primary form-control">Bring a new unicorn to LIFE!</button>
+        </div>
+    </div>
+
+    <div id="app">
+
+
+
+
+    </div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="unicorn.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
